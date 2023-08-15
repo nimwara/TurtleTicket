@@ -306,3 +306,9 @@ document.addEventListener("DOMContentLoaded", function () {
   });
   
  // const confirmationDate = document.getElementById('confirmationDate');  
+document.addEventListener('DOMContentLoaded', () => {
+ localStorage.getItem("personalDetails", personalDetails);
+ JSON.parse(personalDetails);
+ console.log(personalDetails);
+ 
+});
